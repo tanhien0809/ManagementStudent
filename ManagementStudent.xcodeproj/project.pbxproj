@@ -12,6 +12,11 @@
 		902467F41EC2335100B07F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902467F21EC2335100B07F61 /* Main.storyboard */; };
 		902467F61EC2335100B07F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902467F51EC2335100B07F61 /* Assets.xcassets */; };
 		902467F91EC2335100B07F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902467F71EC2335100B07F61 /* LaunchScreen.storyboard */; };
+		902468011EC233F300B07F61 /* ManagementStudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902468001EC233F300B07F61 /* ManagementStudentTableViewController.swift */; };
+		902468031EC235AD00B07F61 /* ManagementStudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902468021EC235AD00B07F61 /* ManagementStudentTableViewCell.swift */; };
+		902468051EC2361800B07F61 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902468041EC2361800B07F61 /* AddStudentViewController.swift */; };
+		902468071EC236CB00B07F61 /* InfoStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902468061EC236CB00B07F61 /* InfoStudentViewController.swift */; };
+		902468091EC2370A00B07F61 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902468081EC2370A00B07F61 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		902467F51EC2335100B07F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902467F81EC2335100B07F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902467FA1EC2335100B07F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902468001EC233F300B07F61 /* ManagementStudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementStudentTableViewController.swift; sourceTree = "<group>"; };
+		902468021EC235AD00B07F61 /* ManagementStudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementStudentTableViewCell.swift; sourceTree = "<group>"; };
+		902468041EC2361800B07F61 /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		902468061EC236CB00B07F61 /* InfoStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoStudentViewController.swift; sourceTree = "<group>"; };
+		902468081EC2370A00B07F61 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				902467EE1EC2335100B07F61 /* AppDelegate.swift */,
 				902467F01EC2335100B07F61 /* ViewController.swift */,
+				902468001EC233F300B07F61 /* ManagementStudentTableViewController.swift */,
+				902468041EC2361800B07F61 /* AddStudentViewController.swift */,
+				902468061EC236CB00B07F61 /* InfoStudentViewController.swift */,
+				902468081EC2370A00B07F61 /* Student.swift */,
+				902468021EC235AD00B07F61 /* ManagementStudentTableViewCell.swift */,
 				902467F21EC2335100B07F61 /* Main.storyboard */,
 				902467F51EC2335100B07F61 /* Assets.xcassets */,
 				902467F71EC2335100B07F61 /* LaunchScreen.storyboard */,
@@ -137,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				902467F11EC2335100B07F61 /* ViewController.swift in Sources */,
+				902468051EC2361800B07F61 /* AddStudentViewController.swift in Sources */,
 				902467EF1EC2335100B07F61 /* AppDelegate.swift in Sources */,
+				902468031EC235AD00B07F61 /* ManagementStudentTableViewCell.swift in Sources */,
+				902468071EC236CB00B07F61 /* InfoStudentViewController.swift in Sources */,
+				902468091EC2370A00B07F61 /* Student.swift in Sources */,
+				902468011EC233F300B07F61 /* ManagementStudentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
